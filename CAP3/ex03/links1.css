@@ -1,0 +1,26 @@
+        h2{
+            background-color: #7faeb7;;
+        }
+        hr{
+            border: solid #7faeb7;
+        }
+        p a:link{
+            text-decoration: none;
+            color: #7faeb7;
+            font-weight: bold;
+        }
+        p a:visited{
+            color: #7faeb7;
+        }
+        p a:hover{
+            color: #ffa700;
+        }
+        img:hover{
+            border: #ffa700 solid 2px;
+        }
+        a:first-of-type img:hover{
+            border-radius: 25px 0 0 25px;
+        }
+        a:last-of-type img:hover{
+            border-radius:  0 25px 25px 0;
+        }

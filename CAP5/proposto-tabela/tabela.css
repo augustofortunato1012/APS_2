@@ -1,0 +1,32 @@
+    body{
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 820px;
+        margin: 30px auto;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td{
+        border: 1px solid #2b4f86;
+        padding: 15px;
+    }
+    .topo th{
+        background-color: #003b80;
+        color: white;
+        font-size: 22px;
+    }
+    td{
+        background-color: #f5f5f5;
+        font-size: 28px;
+    }
+    .rodape{
+        background-color: #003b80;
+        color: white;
+        font-size: 22px;
+        padding: 20px;
+    }
+    table tr td img{
+        width: 60px;
+    }

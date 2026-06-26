@@ -1,0 +1,89 @@
+		body{
+			width: 1000px;
+			margin: auto;
+		}
+		header{
+			text-align: center;
+		}
+		header h1{
+			background-color: #000;
+			color: #fff;
+			border-bottom: solid #c4d6a8 5px;
+			margin-top: 0;
+		}
+		header figure{
+			margin-bottom: 0;
+		}
+		nav{
+			width: 100px;
+			float: left;
+		}
+		nav ul{
+			list-style: none;
+			padding-left: 0;
+		}
+		nav a{
+			text-decoration: none;
+			color: #000;
+			font-weight: bold;
+		}
+		nav ul li{
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border-top: solid thin;
+		}
+		nav ul li last-of-type{
+			border-bottom: solid thin;
+		}
+		main{
+			width: 640px;
+			float: left;
+			margin-left: 30px;
+			margin-right: 30px;
+			text-align: justify;
+		}
+		main img{
+			float: left;
+			margin-right: 15px;
+			margin-bottom: 15px;
+		}
+		main h1{
+			border-bottom: solid;
+		}
+		main h2{
+			font-size: small;
+			text-align: right;
+			margin-top: 0;
+		}
+		aside{
+			width: 150px;
+			float: right;
+		}
+		article h2{
+			border-bottom: solid thin #c4d6a8;
+			margin-bottom: 0;
+		}
+		footer{
+			clear: both;
+			text-align: center;
+			background-color: #000;
+			color: #fff;
+			border-top: solid #c4d6a8 5px;
+			font-weight: bold;
+			padding: 5px;
+		}
+		#citacao{
+			font-style: italic;
+			width: 190px;
+		}
+		.hora{
+			color: #c4d6a8;
+			text-align: right;
+			margin-top: 0;
+		}
+		.link{
+			color: #900;
+			text-decoration: none;
+			text-align: right;
+			display: block;
+		}

@@ -1,0 +1,134 @@
+:root {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #17212b;
+    background: #eef3f8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    padding: 24px;
+    line-height: 1.6;
+}
+
+.page-container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 18px 42px rgba(22, 40, 56, 0.08);
+}
+
+header, footer, article, section, nav {
+    margin-bottom: 24px;
+}
+
+header {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #d8e2ea;
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(1.8rem, 2.5vw, 2.6rem);
+    color: #12355b;
+}
+
+header p {
+    margin: 12px 0 0;
+    color: #4a5d70;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    color: #10579c;
+    background: #eaf2fb;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+nav a:hover {
+    background: #d4e4f6;
+    transform: translateY(-1px);
+}
+
+article {
+    padding: 22px;
+    background: #f7fbff;
+    border-radius: 16px;
+    border: 1px solid #d8e2ea;
+}
+
+article h2 {
+    margin-top: 0;
+    color: #17416f;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+}
+
+article th,
+article td {
+    padding: 12px 14px;
+    border: 1px solid #d8e2ea;
+    text-align: left;
+}
+
+article td:nth-child(2) {
+    vertical-align: top;
+    width: 45%;
+}
+
+aside {
+    margin-top: 20px;
+    padding: 18px;
+    background: #e8f1fb;
+    border-radius: 14px;
+    border: 1px solid #c9d9e7;
+}
+
+a { color: #10579c; }
+
+a:hover { text-decoration: underline; }
+
+footer {
+    padding-top: 18px;
+    border-top: 1px solid #d8e2ea;
+    color: #4a5d70;
+}
+
+footer p {
+    margin: 0 0 10px;
+}
+
+@media (max-width: 720px) {
+    body {
+        padding: 16px;
+    }
+
+    .page-container {
+        padding: 18px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}

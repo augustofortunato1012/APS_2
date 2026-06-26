@@ -1,0 +1,23 @@
+body{
+            width: 850px;
+            text-align: justify;
+            margin: auto;
+        }
+        h1{
+            border-top: solid;
+            border-bottom: solid;
+            border-color: #764e36;
+            color:#764e36;
+        }
+        h2{
+            color: #fff;
+            background-color: #764e36;
+        }
+        img{
+            border: solid #764e36;
+            padding: 15px;
+        }
+
+
+
+        

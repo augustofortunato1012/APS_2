@@ -1,0 +1,21 @@
+      body {
+        width: 70%;
+        margin: auto;
+      }
+      section {
+        border: solid thin #cc9;
+        padding: 25px;
+      }
+      figure {
+        width: 450px;
+        height: 350px;
+        text-align: center;
+        background-color: rgba(204, 204, 153, 0.51);
+        line-height: 350px;
+        position: fixed;
+        top:0;
+        right: 0;
+      }
+      figure img {
+        vertical-align: middle;
+      }

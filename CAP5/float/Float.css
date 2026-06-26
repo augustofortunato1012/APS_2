@@ -1,0 +1,44 @@
+        body{
+            width: 50%;
+            margin: auto;
+            text-align: justify;
+            max-width: 700px;
+        }
+        header{
+            width: 270px;
+            background-color: #e5c5b0;
+            border-radius: 0px 0px 0px 25px;
+            padding: 5px 15px 20px;
+            text-align: center;
+            float: right;
+            margin: 0 0 10px 30px;
+        }
+        header a{
+            text-decoration: none;
+            border-radius: 15px;
+            border:solid thin #bd4e15;
+            background-color: #fff;
+            color: #bd4e15;
+            padding: 5px;
+        }
+        section{
+            width: 330px;
+            float: left;
+        }
+        section h1{
+            background-color: #bd4e15;
+            color: #fff;
+            padding: 5px;
+        }
+        section:first-child{
+            margin-right: 40px;
+        }
+        section h2 img{
+            float: left;
+            margin-right: 15px;
+        }
+        main{
+            clear: both;
+            background-color: #e5c5b0;
+            overflow:auto
+        }

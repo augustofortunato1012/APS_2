@@ -1,0 +1,53 @@
+@media  screen and (min-width: 420px) {
+    article{
+        width: 45%;
+        float: left;
+    }
+
+    article:nth-child(2) {
+        margin: 2% 2%;
+    }
+    
+    article:last-of-type{
+        float: none;
+        width: 95%;
+    }
+    
+    .soPequeno, .soGrande{
+        display: none;
+    }
+    
+    .soMedio {
+        display: block;
+    }body{
+        width: 90%;
+        margin: auto;
+        max-width: 1800px;
+    }
+    
+    article{
+        width: 45%;
+        float: left;
+    }
+    
+    article img {
+        max-width: 100%;
+    }
+    
+    article:nth-child(2) {
+        margin: 2% 2%;
+    }
+    
+    article:last-of-type{
+        float: none;
+        width: 95%;
+    }
+    
+    .soPequeno, .soGrande{
+        display: none;
+    }
+    
+    .soMedio {
+        display: block;
+    }
+}
